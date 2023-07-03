@@ -17,5 +17,12 @@ public class HelloController {
 	public String sayGreet() {
 		return "Welcome to the world of Devops !!";
 	}
+	
+	@GetMapping("/email")
+	public String sendEmail() {
+		return "Contact Us - Send an Email !!";
+	}
+	
+	
 
 }
