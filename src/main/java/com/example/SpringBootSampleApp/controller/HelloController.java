@@ -23,6 +23,10 @@ public class HelloController {
 		return "Contact Us - Send an Email !!";
 	}
 	
+	@GetMapping("/chat")
+	public String chat() {
+		return "Chat with Us !!";
+	}
 	
 
 }
